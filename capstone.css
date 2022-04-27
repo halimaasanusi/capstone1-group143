@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+}
+
+#main-body{
+    background : hsl(218, 28%, 13%);
+    font-family: sans-serif;
+}
+
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* secure location */
+.secure{
+    text-align: center;
+    margin: 0 100px;
+    margin-bottom: 80px;
+}
+.secure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.secure h2{
+    margin: 0 100px;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 0 10px;
+}
+.secure p{
+    margin: 10px 150px;
+    font-size: 16px;
+    padding: 10px;
+}
+#kfiles{
+    height: 400px;
+    width: 500px;
+}
+.secure button{
+    background-color: hsl(198, 96%, 70%);
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* section */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+section div{
+    width: 380px;
+    margin: 30px;
+    text-align: center;
+}
+section p{
+    font-size: 14px;
+}
+
+/* aside */
+aside{
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+}
+aside img{
+    float: left;
+    width: 450px;
+    height: 450px;
+    padding: 0 20px;
+}
+aside div{
+    text-align: left;
+    padding: 10px;
+    margin-top: 30px;
+}
+aside h2{
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 700;
+}
+aside p{
+    font-size: 14px;
+    margin-left: 50px;
+}
+aside a{
+    color: #fff;
+    text-decoration: none;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+
+/* article */
+article{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+article .quote{
+    height: 30px;
+}
+article > div{
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    background: hsl(219, 30%, 18%);
+}
+article div > p{
+    margin: 20px;
+    text-align: left;
+    font-size: 12px;
+    margin: 8px;
+}
+article div>h2{
+    text-align: left;
+    font-size: 16px;
+}
+article div img{
+    float: left;
+    width: 40px;
+    margin: 6px;
+    border-radius: 50%;
+}
+/* form */
+.login form{
+    background: hsl(217, 28%, 15%);
+    width: 750px;
+    margin: 100px;
+    margin-bottom: 0;
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+}
+form h2{
+    font-size: 30px;
+    margin: 10px;
+}
+form p{
+    font-size: 14px;
+    margin: 8px;
+    padding: 10px;
+}
+.login form input{
+    width: 380px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background: white;
+}
+.login form button{
+    background: hsl(198, 96%, 70%);
+    color: #fff;
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+/* footer */
+footer{
+    background: hsl(216, 53%, 9%);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+footer div{
+    padding-top: 100px;
+    float: right;
+}
+.logo{
+    margin: 20px;
+}
+footer div>p{
+    font-size: 14px;
+}
+ul{
+    padding-top: 50px;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
